@@ -37,4 +37,5 @@ object EqualityPlayground extends App {
   println(dhruv === anotherDhruv)
   // it is rewritten as new TypeSafeEqual[User](dhruv).===(anotherDhruv)(NameEquality)
   println(dhruv !== anotherDhruv)
+
 }
